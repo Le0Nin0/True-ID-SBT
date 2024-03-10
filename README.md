@@ -1,4 +1,15 @@
 # README for True University ID
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [System Requirements](#system-requirements)
+4. [Installation and Setup](#installation-and-setup)
+   - [Smart Contract Deployment](#smart-contract-deployment)
+   - [Using the Web Application](#using-the-web-application)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Overview
 
