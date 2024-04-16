@@ -1270,7 +1270,7 @@ contract UniversityDegree is ERC721URIStorage {
     // Constructor to initialize the contract with ERC721 metadata
     constructor() ERC721("TrueID", "TID") {
         owners.push(msg.sender);
-        owners.push(0x5363432541BF9838b74aD922826d74540CB05788); // Leon address
+        owners.push(0x5363432541BF9838b74aD922826d74540CB05788); // Owner address
     }
 
     function _beforeTokenTransfer(
