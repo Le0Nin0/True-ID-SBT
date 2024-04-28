@@ -1,6 +1,9 @@
 # README for True University ID
 # Table of Contents
 
+# README for True University ID
+# Table of Contents
+
 1. [Overview](#overview)
 2. [Key Features](#key-features)
 3. [System Requirements](#system-requirements)
@@ -27,20 +30,20 @@ True University ID is an innovative Web3 project that offers a secure and verifi
 To use the True University ID project, the following requirements must be met:
 
 - An internet connection.
-- A compatible wallet (e.g., MetaMask) for interacting with the Polygon Mumbai Testnet.
+- A compatible wallet (e.g., MetaMask) for interacting with the Polygon Amoy Testnet.
 - A browser that supports Web3 interactions.
 
 ## Installation and Setup
 
 ### Smart Contract Deployment
 
-The Smart Contract for True University ID is located in the `contract` folder of the project. Currently, the Smart Contract is deployed on the Polygon Mumbai Testnet. The precise steps for deployment are as follows:
+The Smart Contract for True University ID is located in the `contract` folder of the project. Currently, the Smart Contract is deployed on the Polygon Amoy Testnet. The precise steps for deployment are as follows:
 
 1. **Prepare the Environment**: Ensure Node.js and npm are installed on your system. You will also need Truffle or a similar framework for deploying smart contracts.
 
-2. **Configure Deployment Settings**: Configure your `truffle-config.js` or an equivalent configuration file to use the Polygon Mumbai Testnet.
+2. **Configure Deployment Settings**: Configure your `truffle-config.js` or an equivalent configuration file to use the Polygon Amoy Testnet.
 
-3. **Deploy**: Execute the deployment process with the appropriate command (e.g., `truffle migrate --network mumbai`) to deploy the smart contract to the testnet.
+3. **Deploy**: Execute the deployment process with the appropriate command (e.g., `truffle migrate --network amoy`) to deploy the smart contract to the testnet.
 
 ### Using the Web Application
 
@@ -67,3 +70,8 @@ For questions or suggestions regarding the True University ID project, please re
 ---
 
 This documentation aims to provide a comprehensive overview of the True University ID project, from system requirements and installation to the use of the web application. It is regularly updated to reflect the latest development status and the needs of the users.
+
+Witere informtionen:
+Contract:https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e
+Faucet: https://faucet.polygon.technology/
+Deploedy with: https://remix.ethereum.org/
