@@ -65,8 +65,10 @@ const ViewMetaData = ({ tokenURI }: any) => {
         <DialogHeader>
           <DialogTitle>Token Metadata</DialogTitle>
           <DialogDescription>
-            An award conferred by a college or university signifying that the
-            recipient has satisfactorily completed a course of study
+            A soulbound token issued by a college or university to
+            confirm the successful completion of an academic degree.
+            Please note that this is a prototype and that no information
+            is provided about the legitimacy of the data.
           </DialogDescription>
         </DialogHeader>
         {isLoading ? (
