@@ -65,10 +65,8 @@ const ViewMetaData = ({ tokenURI }: any) => {
         <DialogHeader>
           <DialogTitle>Token Metadata</DialogTitle>
           <DialogDescription>
-            A soulbound token issued by a college or university to
-            confirm the successful completion of an academic degree.
-            Please note that this is a prototype and that no information
-            is provided about the legitimacy of the data.
+            A soulbound token issued by a college or university to confirm the successful completion of an academic degree.
+            Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
           </DialogDescription>
         </DialogHeader>
         {isLoading ? (
