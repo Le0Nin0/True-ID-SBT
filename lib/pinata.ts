@@ -13,6 +13,7 @@ export const pinJSONToIPFS = async (formData: FormState) => {
   const pinataContent: any = {
     image: "ipfs://QmZeW8PyQcUMNbuRUT5C79N7Q6sLtq5fBJJwbnYJxioeVF",
     description:
+      //"A degree awarded by a college or university that certifies the successful completion of a study programme"
       "This is an academic degree awarded by a college or university that certifies the successful completion of a degree programme. Please note that this is only a prototype and does not provide any information about the legitimacy of the data.",
     sellable: false,
     traits: [],
