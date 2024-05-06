@@ -70,7 +70,7 @@ export default function RecentClaimedDegreesComponent() {
       ) : (
         <Table>
           <TableCaption>
-            A list of users whose degrees have been issued to them
+            The following list contains the idenitifiers of users who have minted a TrueID University Degree Token after earning a degree. Please note that this is a prototype and that no information is provided about the legitimacy of the data.
           </TableCaption>
           <TableHeader>
             <TableRow>
