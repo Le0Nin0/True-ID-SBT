@@ -11,7 +11,7 @@ export const siteConfig = {
   ],
   links: {
     twitter: "",
-    github: "",
+    github: "https://github.com/Le0Nin0/",
     docs: "",
   },
 }
