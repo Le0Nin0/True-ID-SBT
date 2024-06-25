@@ -88,7 +88,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           padding: 20px;
         }
         .footer {
-          background-color: #f1f1f1;
           padding: 20px;
           text-align: center;
           margin-top: 20px;
