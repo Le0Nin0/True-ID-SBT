@@ -69,12 +69,16 @@ export default function RecentClaimedDegreesComponent() {
         </div>
       ) : (
         <Table>
-          <TableCaption>
-            The following list contains the idenitifiers of users who have minted a TrueID University Degree Token after earning a degree.
-          </TableCaption>
-          <TableCaption>
-            Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
-          </TableCaption>
+         <TableCaption>
+  The following list contains the identifiers of users who have minted a TrueID University Degree Token after earning a degree.
+</TableCaption>
+<TableCaption>
+  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
+</TableCaption>
+<TableCaption>
+  This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
+</TableCaption>
+
           <TableHeader>
             <TableRow>
               <TableHead className="w-[100px]">Index</TableHead>
