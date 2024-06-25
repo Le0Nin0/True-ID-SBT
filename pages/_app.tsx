@@ -96,7 +96,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         .disclaimer {
           max-width: 800px;
           margin: 0 auto;
-          font-size: 14px;
+          font-size: 12px;
           color: hsl(var(--muted-foreground));
         }
       `}</style>
