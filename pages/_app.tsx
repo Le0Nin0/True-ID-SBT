@@ -70,10 +70,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <footer className="footer">
               <div className="disclaimer">
                 <p>
-                  The following list contains the identifiers of users who have minted a TrueID University Degree Token after earning a degree.
+                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
+                  Any input of data is at the user's own responsibility.
                 </p>
                 <p>
-                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
+                  For more information, please visit the project's GitHub repository: <a href="https://github.com/LeonStadler/True-ID-SBT" target="_blank">https://github.com/LeonStadler/True-ID-SBT</a>
                 </p>
                 <p>
                   This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
@@ -95,7 +96,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         .disclaimer {
           max-width: 800px;
           margin: 0 auto;
-          font-size: 12px;
+          font-size: 13px;
           color: hsl(var(--muted-foreground));
         }
       `}</style>
