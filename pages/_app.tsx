@@ -61,7 +61,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <RainbowKitProvider chains={chains}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Head>
-              <title>TrueID</title>
+              <title>TrueID SBT</title>
               <meta name="description" content="" />
             </Head>
 
