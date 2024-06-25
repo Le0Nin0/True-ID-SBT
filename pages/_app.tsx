@@ -7,6 +7,7 @@ import { cn } from "../lib/utils";
 import { ThemeProvider } from "../components/theme-provider";
 
 import "../styles/globals.css";
+import "../styles/footerstyle.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import type { AppProps } from "next/app";
@@ -70,14 +71,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <footer className="footer">
               <div className="disclaimer mt-4 text-sm text-muted-foreground">
                 <p>
-                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
-                  Any input of data is at the user's own responsibility.
-                </p>
-                <p>
-                  For more information, please visit the project's GitHub repository: <a href="https://github.com/LeonStadler/True-ID-SBT" target="_blank">https://github.com/LeonStadler/True-ID-SBT</a>
+                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data. Any input of data is at the user's own responsibility.
                 </p>
                 <p>
                   This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
+                </p>
+                <p>
+                  For more information, please visit the project's GitHub repository: <a href="https://github.com/LeonStadler/True-ID-SBT" target="_blank">https://github.com/LeonStadler/True-ID-SBT</a>
                 </p>
               </div>
             </footer>
