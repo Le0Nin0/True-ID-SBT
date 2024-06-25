@@ -68,7 +68,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <Toaster position="top-center" reverseOrder={false} />
             <Component {...pageProps} />
             <footer className="footer">
-              <div className="disclaimer">
+              <div className="disclaimer mt-4 text-sm text-muted-foreground">
                 <p>
                   Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
                   Any input of data is at the user's own responsibility.
@@ -84,22 +84,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           </ThemeProvider>
         </RainbowKitProvider>
       </WagmiConfig>
-      <style jsx>{`
-        .main-content {
-          padding: 20px;
-        }
-        .footer {
-          padding: 20px;
-          text-align: center;
-          margin-top: 20px;
-        }
-        .disclaimer {
-          max-width: 800px;
-          margin: 0 auto;
-          font-size: 13px;
-          color: hsl(var(--muted-foreground));
-        }
-      `}</style>
     </>
   );
 }
