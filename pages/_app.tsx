@@ -71,8 +71,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <footer className="footer">
               <div className="disclaimer mt-4 text-sm text-muted-foreground">
                 <p>
-                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data. Any input of data is at the user's own responsibility.
+                  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
                 </p>
+                <p>
+                  The submission of any data is at the user's own risk, and no liability or responsibility will be accepted for the accuracy or security of the data.
+                </p>
+                <hr />
                 <p>
                   This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
                 </p>
