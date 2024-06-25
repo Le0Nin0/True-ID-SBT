@@ -50,6 +50,15 @@ export function MainNav({ items }: MainNavProps) {
                 "flex items-center text-sm font-medium text-muted-foreground"
               )}
             >
+              GitHub
+          </a>
+          {pathname === "/admin" ? (
+            <Link
+              href={`/admin/claimed-degrees`}
+              className={cn(
+                "flex items-center text-sm font-medium text-muted-foreground"
+              )}
+            >              
               Issued Degrees (Admin)
             </Link>
           ) : pathname === "/admin/claimed-degrees" ? (
