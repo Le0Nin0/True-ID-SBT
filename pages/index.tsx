@@ -12,12 +12,12 @@ const Home: NextPage = () => {
     return (
       <>
         <Head>
-          <title>TrueID</title>
+          <title>TrueID SBT</title>
           <meta name="description" content="" />
         </Head>
 
         <SiteHeader />
-        <head>TrueID</head>
+        <head>TrueID SBT</head>
         <section className="container grid items-center pb-8 pt-6 md:py-10">
           <div className="flex justify-center">
             <Form />
