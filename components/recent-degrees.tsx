@@ -72,9 +72,6 @@ export default function RecentClaimedDegreesComponent() {
          <TableCaption>
   The following list contains the identifiers of users who have minted a TrueID University Degree Token after earning a degree.
 </TableCaption>
-<TableCaption>
-  Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
-</TableCaption>
 
           <TableHeader>
             <TableRow>
