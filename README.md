@@ -1,77 +1,69 @@
-# README for True University ID
-# Table of Contents
+# README für True University ID
+Praktische Umsetzung der Masterarbeit  
+von Leon Sadler  
+im Masterstudiengang InterMedia  
+Betreuung: Dr. Margarita Köhl, MAS  
+Sommersemester 2024  
+Studiengang: Intermedia  
+Fachhochschule Vorarlberg
 
-# README for True University ID
-# Table of Contents
+# Inhaltsverzeichnis
 
-1. [Overview](#overview)
-2. [Key Features](#key-features)
-3. [System Requirements](#system-requirements)
-4. [Installation and Setup](#installation-and-setup)
-   - [Smart Contract Deployment](#smart-contract-deployment)
-   - [Using the Web Application](#using-the-web-application)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+1. [Überblick](#überblick)
+2. [Hauptfunktionen](#hauptfunktionen)
+3. [Systemanforderungen](#systemanforderungen)
+4. [Installation und Einrichtung](#installation-und-einrichtung)
+   - [Deployment des Smart Contracts](#deployment-des-smart-contracts)
+   - [Verwendung der Webanwendung](#verwendung-der-webanwendung)
+5. [Mitwirkung](#mitwirkung)
+6. [Lizenz](#lizenz)
+7. [Kontakt](#kontakt)
 
-## Overview
+## Überblick
+True University ID ist ein innovatives Web3-Projekt, das eine sichere und überprüfbare Identitätslösung für die akademische Gemeinschaft mittels Blockchain-Technologie bietet. Es handelt sich um einen Prototyp im Rahmen einer studentischen Masterarbeit. Es wird keine Garantie für die Rechtmäßigkeit der Daten übernommen. 
 
-True University ID is an innovative Web3 project that offers a secure and verifiable identity solution for the academic community using blockchain technology. It enables the creation of non-transferable tokens containing specific information from universities. These tokens can serve as digital identity proofs for students and staff of universities. Once created, a token can only be deleted by the user themselves or by admins, ensuring a high level of control and security.
+Das Projekt ermöglicht die Erstellung von nicht übertragbaren Token, die spezifische Informationen von Universitäten enthalten. Diese Token können als digitale Identitätsnachweise für Studierende und Mitarbeiter von Universitäten dienen. Ein Token kann nach der Ausstellung jederzeit vom Benutzer selbst oder von Administratoren gelöscht werden, wodurch die Verbindung zu IPFS aufgehoben und der Token verbrannt wird. Beachten Sie, dass bei der Eingabe personenbezogene Daten verarbeitet werden, die unwiderruflich auf einer Blockchain gespeichert und per IPFS auf Pinata abgelegt werden.
 
-## Key Features
+## Hauptfunktionen
+- **Nicht übertragbare Token**: Erstellung einzigartiger digitaler Identitäten, die sicher an eine Einzelperson gebunden sind und nicht übertragen werden können.
+- **Blockchain-basierte Verifizierung**: Nutzung der Blockchain-Technologie zur Sicherstellung der Authentizität und Unveränderlichkeit der Identitätsnachweise.
+- **Datenschutz und Sicherheit**: Schutz der Privatsphäre durch sichere Speicherung personenbezogener Daten auf der Blockchain.
+- **Einfache Zugänglichkeit**: Benutzer können ihre digitale Identität über eine Webanwendung einfach verwalten und überprüfen.
 
-- **Non-transferable Tokens**: Creation of unique digital identities that are securely bound to an individual and cannot be transferred.
-- **Blockchain-based Verification**: Use of blockchain technology to ensure the authenticity and immutability of identity proofs.
-- **Privacy and Security**: Protection of privacy through secure storage of personal data on the blockchain.
-- **Easy Accessibility**: Through a web application, users can easily manage and verify their digital identity.
+## Systemanforderungen
+Um das True University ID Projekt zu nutzen, müssen folgende Anforderungen erfüllt werden:
 
-## System Requirements
+- Eine Internetverbindung.
+- Eine kompatible Wallet (z.B. MetaMask, Rainbow, Coinbase Wallet, WalletConnect) zur Interaktion mit dem Polygon Amoy Testnet.
+- Ein Browser, der Web3-Interaktionen unterstützt.
+- Amoy Testnet Token, die für Anfragen benötigt werden und zuerst vom Inhaber des Smart Contracts freigegeben werden müssen.
 
-To use the True University ID project, the following requirements must be met:
+## Installation und Einrichtung
+### Deployment des Smart Contracts
+Der Smart Contract für True University ID befindet sich im `contract`-Ordner des Projekts. Derzeit ist der Smart Contract auf dem Polygon Amoy Testnet bereitgestellt. Die genauen Schritte für das Deployment sind wie folgt:
 
-- An internet connection.
-- A compatible wallet (e.g., MetaMask) for interacting with the Polygon Amoy Testnet.
-- A browser that supports Web3 interactions.
+1. **Umgebung vorbereiten**: Stellen Sie sicher, dass Node.js und npm auf Ihrem System installiert sind. Sie benötigen außerdem Truffle oder ein ähnliches Framework zur Bereitstellung von Smart Contracts.
+2. **Deployment-Einstellungen konfigurieren**: Konfigurieren Sie Ihre `truffle-config.js` oder eine äquivalente Konfigurationsdatei zur Nutzung des Polygon Amoy Testnets.
+3. **Deployment durchführen**: Führen Sie den Deployment-Prozess mit dem entsprechenden Befehl (z.B. `truffle migrate --network amoy`) aus, um den Smart Contract im Testnet bereitzustellen.
 
-## Installation and Setup
+### Verwendung der Webanwendung
+Der Prototyp der Webanwendung ist unter der URL [https://true-id.vercel.app/](https://true-id.vercel.app/) zugänglich. Die Nutzung erfolgt wie folgt:
 
-### Smart Contract Deployment
+1. **Wallet verbinden**: Verbinden Sie Ihre Wallet mit der Webanwendung, um auf deren Funktionen zuzugreifen.
+2. **Token anfordern**: Fordern Sie einen digitalen Identitätsnachweis in Form eines Tokens an, indem Sie die erforderlichen Universitätsinformationen bereitstellen.
+3. **Tokens anzeigen**: Nach der Verbindung Ihrer Wallet können Sie alle ausgestellten Tokens anzeigen und verwalten.
 
-The Smart Contract for True University ID is located in the `contract` folder of the project. Currently, the Smart Contract is deployed on the Polygon Amoy Testnet. The precise steps for deployment are as follows:
+## Mitwirkung
+Das True University ID Projekt lädt Entwickler und Interessierte ein, zum Projekt beizutragen, sei es durch das Melden von Fehlern, Vorschlagen von Verbesserungen oder direkte Beiträge zum Code. Pull-Requests sind willkommen. Bitte stellen Sie sicher, dass Ihre Beiträge den Richtlinien des Projekts entsprechen.
 
-1. **Prepare the Environment**: Ensure Node.js and npm are installed on your system. You will also need Truffle or a similar framework for deploying smart contracts.
-
-2. **Configure Deployment Settings**: Configure your `truffle-config.js` or an equivalent configuration file to use the Polygon Amoy Testnet.
-
-3. **Deploy**: Execute the deployment process with the appropriate command (e.g., `truffle migrate --network amoy`) to deploy the smart contract to the testnet.
-
-### Using the Web Application
-
-The prototype of the web application is accessible at the URL [https://true-id.vercel.app/](https://true-id.vercel.app/). Its use is as follows:
-
-1. **Connect Wallet**: Connect your wallet to the web application to access its functionalities.
-
-2. **Request Token**: Request a digital identity proof in the form of a token by providing the required university information.
-
-3. **View Tokens**: After connecting your wallet, you can view and manage all the tokens that have been issued.
-
-## Contributing
-
-The True University ID project invites developers and interested parties to contribute to the project, whether by reporting bugs, suggesting improvements, or directly contributing to the code. Pull requests are welcome. Please ensure your contributions adhere to the project's guidelines.
-
-## License
-
-The True University ID project is released under the MIT License. This allows for wide use, modification, and distribution subject to the terms of the license.
-
-## Contact
-
-For questions or suggestions regarding the True University ID project, please reach out through the contact information provided in the GitHub profile of the project maintainers.
+## Kontakt
+Für Fragen oder Anregungen zum True University ID Projekt wenden Sie sich bitte über die im GitHub-Profil der Projektbetreuer angegebenen Kontaktinformationen.
 
 ---
 
-This documentation aims to provide a comprehensive overview of the True University ID project, from system requirements and installation to the use of the web application. It is regularly updated to reflect the latest development status and the needs of the users.
+Diese Dokumentation soll einen umfassenden Überblick über das True University ID Projekt bieten, von den Systemanforderungen und der Installation bis hin zur Nutzung der Webanwendung. Sie wird regelmäßig aktualisiert, um den neuesten Entwicklungsstand und die Bedürfnisse der Benutzer widerzuspiegeln.
 
-Witere informtionen:
-Contract:https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e
-Faucet: https://faucet.polygon.technology/
-Deploedy with: https://remix.ethereum.org/
+Weitere Informationen:  
+Contract: [https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e](https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e)  
+Faucet: [https://faucet.polygon.technology/](https://faucet.polygon.technology/)  
+Bereitgestellt mit: [https://remix.ethereum.org/](https://remix.ethereum.org/)
