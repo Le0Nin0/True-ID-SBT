@@ -75,9 +75,6 @@ export default function RecentClaimedDegreesComponent() {
 <TableCaption>
   Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
 </TableCaption>
-<TableCaption>
-  This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
-</TableCaption>
 
           <TableHeader>
             <TableRow>
