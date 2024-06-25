@@ -67,6 +67,17 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
             <Toaster position="top-center" reverseOrder={false} />
             <Component {...pageProps} />
+            <footer>
+              <p>
+                The following list contains the identifiers of users who have minted a TrueID University Degree Token after earning a degree.
+              </p>
+              <p>
+                Please be aware that this is a prototype and no guarantee can be given regarding the legitimacy of the data.
+              </p>
+              <p>
+                This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
+              </p>
+            </footer>
           </ThemeProvider>
         </RainbowKitProvider>
       </WagmiConfig>
