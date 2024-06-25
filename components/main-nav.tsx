@@ -45,7 +45,7 @@ export function MainNav({ items }: MainNavProps) {
           </Link>
           {pathname === "/admin" ? (
             <Link
-              href={`/admin/claimed-degrees`}
+              href={/admin/claimed-degrees}
               className={cn(
                 "flex items-center text-sm font-medium text-muted-foreground"
               )}
