@@ -35,14 +35,34 @@ export function MainNav({ items }: MainNavProps) {
                 </Link>
               )
           )}
-          <Link
-            href={`/recent`}
+                    <Link
+            href="/recent"
             className={cn(
               "flex items-center text-sm font-medium text-muted-foreground"
             )}
           >
             Recently Issued Degrees
           </Link>
+          {pathname === "/admin" ? (
+            <>
+              <Link
+                href="/admin/claimed-degrees"
+                className={cn(
+                  "flex items-center text-sm font-medium text-muted-foreground"
+                )}
+              >
+                Issued Degrees (Admin)
+              </Link>
+              <Link
+                href="/admin"
+                className={cn(
+                  "flex items-center text-sm font-medium text-muted-foreground"
+                )}
+              >
+                Requested Degrees (Admin)
+              </Link>
+            </>
+          ) : null}
           <a
             href="https://github.com/LeonStadler/True-ID-SBT"
             target="_blank"
@@ -53,25 +73,6 @@ export function MainNav({ items }: MainNavProps) {
           >
             GitHub
           </a>
-          {pathname === "/admin" ? (
-            <Link
-              href="/admin/claimed-degrees"
-              className={cn(
-                "flex items-center text-sm font-medium text-muted-foreground"
-              )}
-            >       
-              Issued Degrees (Admin)
-            </Link>
-          ) : pathname === "/admin/claimed-degrees" ? (
-            <Link
-              href={`/admin`}
-              className={cn(
-                "flex items-center text-sm font-medium text-muted-foreground"
-              )}
-            >
-              Requested Degrees (Admin)
-            </Link>
-          ) : null}
         </nav>
       ) : null}
     </div>
