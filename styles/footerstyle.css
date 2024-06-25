@@ -4,7 +4,8 @@
           margin-top: 20px;
         }
 .disclaimer {
-          max-width: 800px;
+          width: 880vw;
+          max-width: 1200px;
           margin: 0 auto;
         }
 .disclaimer hr {
