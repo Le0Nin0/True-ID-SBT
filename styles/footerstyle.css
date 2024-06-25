@@ -7,3 +7,6 @@
           max-width: 800px;
           margin: 0 auto;
         }
+.disclaimer hr {
+          margin: 20px 0; /* Adjust the values as needed */
+        }
