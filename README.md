@@ -37,19 +37,10 @@ Um das True University ID Projekt zu nutzen, müssen folgende Anforderungen erf�
 - Eine Internetverbindung.
 - Eine kompatible Wallet (z.B. MetaMask, Rainbow, Coinbase Wallet, WalletConnect) zur Interaktion mit dem Polygon Amoy Testnet.
 - Ein Browser, der Web3-Interaktionen unterstützt.
-- Token des Amoy Testnets, die für Anfragen benötigt werden. Diese können über die Alchemy Faucet für das Polygon Amoy Testnet bezogen werden. Bitte beachten Sie, dass diese Tokens keinen realen Wert darstellen, da sie ausschließlich für Testnetzwecke verwendet werden.
-
-## Installation und Einrichtung
-### Deployment des Smart Contracts
-Der Smart Contract für True University ID befindet sich im `contract`-Ordner des Projekts. Derzeit ist der Smart Contract auf dem Polygon Amoy Testnet bereitgestellt. Die genauen Schritte für das Deployment sind wie folgt:
-
-1. **Umgebung vorbereiten**: Stellen Sie sicher, dass Node.js und npm auf Ihrem System installiert sind. Sie benötigen außerdem Truffle oder ein ähnliches Framework zur Bereitstellung von Smart Contracts.
-2. **Deployment-Einstellungen konfigurieren**: Konfigurieren Sie Ihre `truffle-config.js` oder eine äquivalente Konfigurationsdatei zur Nutzung des Polygon Amoy Testnets.
-3. **Deployment durchführen**: Führen Sie den Deployment-Prozess mit dem entsprechenden Befehl (z.B. `truffle migrate --network amoy`) aus, um den Smart Contract im Testnet bereitzustellen.
+- Token des Amoy Testnets, die für Anfragen benötigt werden. Diese können über die Alchemy Faucet für das Polygon Amoy Testnet bezogen werden. Diese Tokens stellen keinen realen Wert dar und können kostenlos über die unten angegebene Links bezogen werden, und könne nur für das Testnetzweck verwendet werden.
 
 ### Verwendung der Webanwendung
-Der Prototyp der Webanwendung ist unter der URL [https://true-id.vercel.app/](https://true-id.vercel.app/) zugänglich. Die Nutzung erfolgt wie folgt:
-
+Der Prototyp der Webanwendung ist unter der URL [https://true-id.leon-stadler.com/](https://true-id.leon-stadler.com/) zugänglich. Die Nutzung erfolgt wie folgt:
 1. **Wallet verbinden**: Verbinden Sie Ihre Wallet mit der Webanwendung, um auf deren Funktionen zuzugreifen.
 2. **Token anfordern**: Fordern Sie einen digitalen Identitätsnachweis in Form eines Tokens an, indem Sie die erforderlichen Universitätsinformationen bereitstellen.
 3. **Tokens anzeigen**: Nach der Verbindung Ihrer Wallet können Sie alle ausgestellten Tokens anzeigen und verwalten.
@@ -65,6 +56,8 @@ Für Fragen oder Anregungen zum True University ID Projekt wenden Sie sich bitte
 Diese Dokumentation soll einen umfassenden Überblick über das True University ID Projekt bieten, von den Systemanforderungen und der Installation bis hin zur Nutzung der Webanwendung. Sie wird regelmäßig aktualisiert, um den neuesten Entwicklungsstand und die Bedürfnisse der Benutzer widerzuspiegeln.
 
 Weitere Informationen:  
-Contract: [https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e](https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e)  
-Faucet: [https://faucet.polygon.technology/](https://faucet.polygon.technology/)  
-Bereitgestellt mit: [https://remix.ethereum.org/](https://remix.ethereum.org/)
+Contract: [0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e](https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e)  
+Faucet: [Polygon Faucet](https://faucet.polygon.technology/)
+oder [Alchemy](https://www.alchemy.com/faucets/polygon-amoy)
+Bereitgestellt mit: [Remix IDE](https://remix.ethereum.org/)
+Gehostet über Vercel: [https://vercel.com/] (https://vercel.com/)
