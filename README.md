@@ -56,8 +56,8 @@ Für Fragen oder Anregungen zum True University ID Projekt wenden Sie sich bitte
 Diese Dokumentation soll einen umfassenden Überblick über das True University ID Projekt bieten, von den Systemanforderungen und der Installation bis hin zur Nutzung der Webanwendung. Sie wird regelmäßig aktualisiert, um den neuesten Entwicklungsstand und die Bedürfnisse der Benutzer widerzuspiegeln.
 
 Weitere Informationen:  
-Contract: [0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e](https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e)  
+Contract: [0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e](https://www.oklink.com/de/amoy/tx/0xa98c5e64f44e048f98b4d408bacf3a2b6672ac7c80103b8b2b25bcb12d9f3d2e)
 Faucet: [Polygon Faucet](https://faucet.polygon.technology/)
 oder [Alchemy](https://www.alchemy.com/faucets/polygon-amoy)
 Bereitgestellt mit: [Remix IDE](https://remix.ethereum.org/)
-Gehostet über Vercel: [https://vercel.com/] (https://vercel.com/)
+Gehostet über Vercel: [Vercel] (https://vercel.com/)
