@@ -1,6 +1,6 @@
 # README für True University ID
 Praktische Umsetzung der Masterarbeit  
-von Leon Sadler  
+von Leon Stadler  
 im Masterstudiengang InterMedia  
 Betreuung: Dr. Margarita Köhl, MAS  
 Sommersemester 2024  
@@ -20,9 +20,11 @@ Fachhochschule Vorarlberg
 7. [Kontakt](#kontakt)
 
 ## Überblick
-True University ID ist ein innovatives Web3-Projekt, das eine sichere und überprüfbare Identitätslösung für die akademische Gemeinschaft mittels Blockchain-Technologie bietet. Es handelt sich um einen Prototyp im Rahmen einer studentischen Masterarbeit. Es wird keine Garantie für die Rechtmäßigkeit der Daten übernommen. 
+Dieses Projekt ist Teil meiner Masterarbeit im Masterstudiengang InterMedia an der Fachhochschule Vorarlberg. In meiner Arbeit untersuche ich die Einsatzmöglichkeiten von Soulbound Tokens (SBTs) zur Verwaltung digitaler Identitäten in einem dezentralen Web3-Ökosystem.
+Ziel des Projektes ist es, zu untersuchen, wie solche Technologien eingesetzt werden können und welche Möglichkeiten sich daraus ergeben.
 
-Das Projekt ermöglicht die Erstellung von nicht übertragbaren Token, die spezifische Informationen von Universitäten enthalten. Diese Token können als digitale Identitätsnachweise für Studierende und Mitarbeiter von Universitäten dienen. Ein Token kann nach der Ausstellung jederzeit vom Benutzer selbst oder von Administratoren gelöscht werden, wodurch die Verbindung zu IPFS aufgehoben und der Token verbrannt wird. Beachten Sie, dass bei der Eingabe personenbezogene Daten verarbeitet werden, die unwiderruflich auf einer Blockchain gespeichert und per IPFS auf Pinata abgelegt werden.
+Das Projekt ermöglicht die Erstellung von nicht übertragbaren Token, die spezifische Informationen von Universitäten enthalten. Diese Token können als digitaler Identitätsnachweis für Studierende und Universitätsmitarbeiter dienen. Ein Token kann nach seiner Ausgabe jederzeit vom Benutzer selbst oder von Administratoren gelöscht werden, wodurch die Verbindung zu IPFS getrennt und der Token verbrannt wird. Bitte beachten Sie, dass bei der Eingabe personenbezogene Daten verarbeitet werden, die unwiderruflich auf der Blockchain gespeichert und über IPFS auf Pinata abgelegt werden.
+Es kann und wird keine Garantie für die Rechtmäßigkeit der Daten übernommen, welche durch die Nutzer*innen eingegeben oder abgefragt werden. 
 
 ## Hauptfunktionen
 - **Nicht übertragbare Token**: Erstellung einzigartiger digitaler Identitäten, die sicher an eine Einzelperson gebunden sind und nicht übertragen werden können.
@@ -32,11 +34,10 @@ Das Projekt ermöglicht die Erstellung von nicht übertragbaren Token, die spezi
 
 ## Systemanforderungen
 Um das True University ID Projekt zu nutzen, müssen folgende Anforderungen erfüllt werden:
-
 - Eine Internetverbindung.
 - Eine kompatible Wallet (z.B. MetaMask, Rainbow, Coinbase Wallet, WalletConnect) zur Interaktion mit dem Polygon Amoy Testnet.
 - Ein Browser, der Web3-Interaktionen unterstützt.
-- Amoy Testnet Token, die für Anfragen benötigt werden und zuerst vom Inhaber des Smart Contracts freigegeben werden müssen.
+- Token des Amoy Testnets, die für Anfragen benötigt werden. Diese können über die Alchemy Faucet für das Polygon Amoy Testnet bezogen werden. Bitte beachten Sie, dass diese Tokens keinen realen Wert darstellen, da sie ausschließlich für Testnetzwecke verwendet werden.
 
 ## Installation und Einrichtung
 ### Deployment des Smart Contracts
