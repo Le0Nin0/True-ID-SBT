@@ -78,7 +78,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 </p>
                 <hr />
                 <p>
-                  This project was developed by Leon Sadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
+                  This project was developed by Leon Stadler as part of his Master's thesis in the InterMedia program at the University of Applied Sciences Vorarlberg, during the Summer Semester of 2024, under the supervision of Dr. Margarita Köhl, MAS.
                 </p>
                 <p>
                   For more information, please visit the project's <a href="https://github.com/LeonStadler/True-ID-SBT" target="_blank">GitHub</a> repository.
