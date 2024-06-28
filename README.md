@@ -40,7 +40,7 @@ Um das True University ID Projekt zu nutzen, müssen folgende Anforderungen erf�
 - Token des Amoy Testnets, die für Anfragen benötigt werden. Diese können über die Alchemy Faucet für das Polygon Amoy Testnet bezogen werden. Diese Tokens stellen keinen realen Wert dar und können kostenlos über die unten angegebene Links bezogen werden, und könne nur für das Testnetzweck verwendet werden.
 
 ### Verwendung der Webanwendung
-Der Prototyp der Webanwendung ist unter der URL [https://true-id.leon-stadler.com/](https://true-id.leon-stadler.com/) oder [https://true-id.vercel.app/](https://true-id.vercel.app/)zugänglich. Seien sie sich bewusst dass dies nur ein  Prototyp darstellt. Die Nutzung erfolgt wie folgt:
+Der Prototyp der Webanwendung ist unter der URL [https://true-id.vercel.app/](https://true-id.vercel.app/)zugänglich. Seien sie sich bewusst dass dies nur ein  Prototyp darstellt. Die Nutzung erfolgt wie folgt:
 1. **Wallet verbinden**: Verbinden Sie Ihre Wallet mit der Webanwendung, um auf deren Funktionen zuzugreifen.
 2. **Token anfordern**: Fordern Sie einen digitalen Identitätsnachweis in Form eines Tokens an, indem Sie die erforderlichen Universitätsinformationen bereitstellen.
 3. **Token erhalten**: Der Token muss zunächst vom Inhaber des Smartcontracts freigegeben werden, sollte dies länger als 3-6 Werktage dauern melden sie sich gerne beim inhaber des Repositorie
